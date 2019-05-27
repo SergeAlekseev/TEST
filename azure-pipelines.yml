@@ -36,4 +36,4 @@ steps:
   inputs:
     pathtoPublish: '$(Build.SourcesDirectory)'
     artifactName: 'drop'
-    publishLocation: 'Container'
+    publishLocation: 'Container' # Options : container, filePatch 
